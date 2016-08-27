@@ -34,6 +34,10 @@ body{
     clear: both;
 }
 
+a{
+    text-decoration: none;
+    color: #fde4f1;
+}
 
 /* ----- Navigation Styling ---- */
 .navi{
@@ -61,6 +65,7 @@ body{
     text-decoration: none;
 }
 
+
 a:hover{
     border-bottom-style: solid;
     border-bottom-color:#fde4f1;
@@ -72,20 +77,93 @@ a:hover{
 
 #about{
     position: relative;
+    display: inline-block;
     text-align: center;
     padding-top: 40px;
     padding-bottom: 50px;
-    margin-right: 400;
+    margin-left: 20px;
+    width: 45%;
+    float: left;
 }
 
-.skills{
-    font-family: Courier;
+
+
+#skills{
+    position: relative;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin-right: 10px;
+    width: 45%;
+    float: right;
 }
+
+
+.skills_types{
+    overflow: hidden;
+    font-family: Courier;
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.types{
+    margin: auto;
+    width: 100%
+    text-align: center;
+}
+
+.types li{
+    background: rgba(34, 0, 17, 0.4);
+    display: inline-block;
+    padding: 2%;
+    margin: 0px;
+    color: #fde4f1;
+    font-family: Courier;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 20px;
+    border: thin solid #d4c4cc;
+}
+
+.types li:hover{
+    font-size: 22px;
+}
+
+.skills_list{
+    background: rgba(34, 0, 17, 0.4);
+    text-align: center;
+    font-family: Courier;
+    padding: 2%;
+    margin: auto;
+    border: medium solid #d4c4cc;
+    height: 100%
+    overflow: hidden;
+}
+
+#list_one ul,
+#list_two ul,
+#list_three ul,
+#list_four ul{
+    padding-left: 0px;
+    list-style: none;
+}
+
+#list_one li,
+#list_two li,
+#list_three li,
+#list_four li{
+    padding: 2%;
+    font-size: 20px;
+    color: #fde4f1;
+}
+
 
 h1{
     margin: 10px;
     float: left;
-    font-size: 2em;
     display: inline-block;
 }
 
