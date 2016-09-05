@@ -126,10 +126,12 @@ a:hover{
     border-top-right-radius: 10px;
     font-size: 20px;
     border: thin solid #d4c4cc;
+    opacity: 0.5;
 }
 
 .types li:hover{
     font-size: 22px;
+    opacity: 1; /* replace with jquery once it's fixed */
 }
 
 .skills_list{
