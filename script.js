@@ -9,7 +9,7 @@ $(document).ready(function () {
         $('this').fadeTo('fast', 0.5);
     }); 
     
-        Doesn't work!!
+     *** Doesn't work - fix later ***
     */
     
     $("#list_one li").show();
