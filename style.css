@@ -10,12 +10,12 @@ navi bar/header bg color: #594750
 *{
  /*   font-family: 'Dosis', sans-serif;*/
     color: #846776;
-    
+    font-family: 'Questrial', sans-serif;
+
 }
 
 body{
     background-color: #d4c4cc;
-    font-family: 'Questrial', sans-serif;
 }
 
 #header{
