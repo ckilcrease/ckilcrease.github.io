@@ -103,7 +103,7 @@ a:hover{
 
 .skills_types{
     overflow: hidden;
-    font-family: Courier;
+   /* font-family: Courier;*/
     width: auto;
     margin: auto;
     text-align: center;
@@ -121,7 +121,7 @@ a:hover{
     padding: 2%;
     margin: 0px;
     color: #fde4f1;
-    font-family: Courier;
+ /*   font-family: Courier;*/
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     font-size: 20px;
@@ -137,7 +137,7 @@ a:hover{
 .skills_list{
     background: rgba(34, 0, 17, 0.4);
     text-align: center;
-    font-family: Courier;
+/*    font-family: Courier;*/
     padding: 2%;
     margin: auto;
     border: medium solid #d4c4cc;
