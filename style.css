@@ -89,6 +89,7 @@ a:hover{
 
 
 #skills{
+    font-family: 'Questrial', sans-serif;
     position: relative;
     height: auto;
     display: inline-block;
@@ -121,6 +122,7 @@ a:hover{
     padding: 2%;
     margin: 0px;
     color: #fde4f1;
+    font-family: 'Questrial', sans-serif;
  /*   font-family: Courier;*/
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -137,7 +139,7 @@ a:hover{
 .skills_list{
     background: rgba(34, 0, 17, 0.4);
     text-align: center;
-/*    font-family: Courier;*/
+    font-family: 'Questrial', sans-serif;
     padding: 2%;
     margin: auto;
     border: medium solid #d4c4cc;
