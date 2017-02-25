@@ -2,16 +2,21 @@
 @import 'https://fonts.googleapis.com/css?family=Questrial';
 
 
-/*    
-bg color: #d4c4cc
-navi bar/header bg color: #594750
-*/
-
 *{
  /*   font-family: 'Dosis', sans-serif;*/
     color: #846776;
     font-family: 'Questrial', sans-serif;
 
+}
+
+h1{
+    margin: 10px;
+    float: left;
+    display: inline-block;
+}
+
+h2{
+    
 }
 
 body{
@@ -122,8 +127,7 @@ a:hover{
     padding: 2%;
     margin: 0px;
     color: #fde4f1;
-    font-family: 'Questrial', sans-serif;
- /*   font-family: Courier;*/
+/*    font-family: 'Questrial', sans-serif;*/
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     font-size: 20px;
@@ -133,13 +137,13 @@ a:hover{
 
 .types li:hover{
     font-size: 22px;
-    opacity: 1; /* replace with jquery once it's fixed */
+    opacity: 1; 
 }
 
 .skills_list{
     background: rgba(34, 0, 17, 0.4);
     text-align: center;
-    font-family: 'Questrial', sans-serif;
+ /*   font-family: 'Questrial', sans-serif;*/
     padding: 2%;
     margin: auto;
     border: medium solid #d4c4cc;
@@ -164,13 +168,11 @@ a:hover{
     color: #fde4f1;
 }
 
+/* ----- Portfolio styling ----- */
 
-h1{
-    margin: 10px;
-    float: left;
-    display: inline-block;
-}
 
-h2{
-    
-}
+/* ----- Travel styling ----- */
+
+
+/* ----- Contact ----- */
+
