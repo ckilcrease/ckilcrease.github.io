@@ -3,29 +3,35 @@
  	<head>
    		<meta charset="UTF-8">
     	<title>Celina Kilcrease</title>
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
  		<link rel="stylesheet" href="styles/stylesheet.css" type="text/css">
+
   	</head>
   	<body>
   		<div class="container">
 
   			<h2>Celina Kilcrease</h2>
-  			<ul class="navi">
-  				<a href=""><li class="">About</li></a> | 
+
+  			<ul class="navi" id="accordion">
+  				<li data-toggle="collapse" data-target="#about" data-parent="#accordion">About</li> | 
   				<a href="CKResume.pdf" target="_blank"><li class="">Resume</li></a> | 
-  				<a href=""><li class="">Contact</li></a>
+  				<li data-toggle="collapse" data-target="#contact" data-parent="#accordion">Contact</li>
 
   			</ul>
 
-  			<div class="panel" id="about">
-  				I'm Celina. Insert description here.
+  			<div id="about" class="collapse">
+  				Under construction
 
   				<img class="photo" src="">
   			</div>
 
-  			<div class="panel" id="contact">
-  				
+  			<div id="contact" class="collapse">
+  				Also under construction
   			</div>
 
   		</div>
   	</body>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </html>

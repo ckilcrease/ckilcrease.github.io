@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:300|Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300');
 
 
 body{
-	font-family: 'Comfortaa';
+/*	font-family: 'Comfortaa';*/
+	font-family: 'Quicksand';
 	text-align: center;
 	color: #ffccff;
 	background-color: #666666;
@@ -36,8 +38,4 @@ h2{
 
 .photo{
 
-}
-
-.panel{
-	
 }
