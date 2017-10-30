@@ -48,10 +48,29 @@ h2{
 	font-size: .75em;
 }
 
+.footer{
+	background-color: #ffccff;
+	color: #666666;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	position: absolute;
+	bottom:0px;
+}
+
+.footer_text{
+	padding-top: 10px;
+}
+
 #about p{
 	display: block;
 	float: right;
 	text-align: justify;
 	width: 60%;
+}
+
+#contact{
+	clear: left;
+	text-align: center;
 }
 
