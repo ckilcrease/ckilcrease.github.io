@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:300|Josefin+Sans');
 @import url('https://fonts.googleapis.com/css?family=Quicksand:300');
 
+@import url('http://weloveiconfonts.com/api/?family=brandico');
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
 
 body{
 /*	font-family: 'Comfortaa';*/

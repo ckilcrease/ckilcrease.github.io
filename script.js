@@ -1,4 +1,4 @@
-//script.js ---client side stuff goes here :)
+//script.js ---client side stuff goes here
 
 /**/
 
